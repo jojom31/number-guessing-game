@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 30%;
+    padding: 40px;
+    border: 6px double darkcyan;
+    border-radius: 20%;
+    background-color: rgb(150, 165, 137);
+    box-shadow: 10px 5px 5px darkgoldenrod;
+}
+
+h1 {
+    color: darkcyan;
+    text-align: center;
+}
+
+p{
+    color: darkcyan;
+    text-align: center;
+}
+label {
+    color: darkcyan;
+}
+.guessSubmit {
+    padding: 20px;
+    color: rgb(0, 110, 255);
+    background-color: goldenrod;
+    border-radius: 30%;
+    justify-content: center;
+}
